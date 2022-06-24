@@ -3,6 +3,10 @@ from matplotlib.pyplot import title
 from Song import Song
 from tabulate import tabulate
 
+"""
+Program takes in song details, analyzes displays the songs in a
+sorted in a table.
+"""
 class PlayList:
     def __init__(self):
         self.songs = []
@@ -35,7 +39,6 @@ class PlayList:
             if(minPlaytime == song.getPlaytime()):
                 print(song.toString())
 
-      
     def length(self):
         return len(self.songs)
     

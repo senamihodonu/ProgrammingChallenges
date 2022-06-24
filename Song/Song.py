@@ -1,7 +1,10 @@
 from matplotlib import artist
 from matplotlib.pyplot import title
 
-
+"""
+Song class to help analyze song details and service the playlist 
+class
+"""
 class Song():
 
     def __init__(self, title, artist, album, playtime):
