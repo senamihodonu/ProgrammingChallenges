@@ -4,6 +4,7 @@ from matplotlib.pyplot import title
 """
 Song class to help analyze song details and service the playlist 
 class
+@snHD88
 """
 class Song():
 
@@ -47,7 +48,7 @@ class Song():
     
     def toString(self):
         """sets the playtime of the song"""
-        return f"{self.title}       |{self.artist}      | {self.album}      |{self.playtime}"
+        return f"Title: {self.title}| Artist: {self.artist}| Album: {self.album}| Playtime: {self.playtime}"
 
     
 #newSong = Song()

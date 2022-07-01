@@ -6,6 +6,7 @@ from tabulate import tabulate
 """
 Program takes in song details, analyzes displays the songs in a
 sorted in a table.
+@snHD88
 """
 class PlayList:
     def __init__(self):
